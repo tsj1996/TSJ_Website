@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Texas_Holdem</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+          font-family: SimSun, sans-serif;
+        }
+    </style>
+  </head>
+
+  <body>
+    <h2>Order</h2>
+    <blockquote> 
+        <p><b>Royal Flush: </b>皇家同花顺</p>
+        <p><b>Straight Flush: </b>同花顺</p>
+        <p><b>Four of a Kind: </b>四条</p>
+        <p><b>Full House: </b>葫芦，三带二</p>
+        <p><b>Flush: </b>同花</p>
+        <p><b>Straight: </b>顺</p>
+        <p><b>Three of a Kind: </b>三条</p>
+        <p><b>Two Pairs: </b>两对</p>
+        <p><b>One Pair: </b>一对</p>
+        <p><b>High Card: </b>高牌</p>
+    </blockquote>
+    <h2>Terminology</h2>
+    <p><b>UTG: </b>Under the gun, 枪口位置</p>
+    <p><b>Cutoff: </b>按钮右边的位置</p>
+    <p><b>Button: </b>按钮(庄家位)</p>
+    <p><b>SB: </b>Small blind, 小盲注</p>
+    <p><b>BB: </b>Big blind, 大盲注</p>
+    <p><b>Heart: </b>红桃</p>
+    <p><b>Spade: </b>黑桃</p>
+    <p><b>Diamond: </b>方片</p>
+    <p><b>Club: </b>草花</p>
+    <p><b>Add-on: </b>最后一次rebuy的机会，一般筹码比普通rebuy更多更超值</p>
+    <p><b>Aggressive: </b>激进性打法</p>
+    <p><b>All-in: </b>用所有的筹码下注或者跟注</p>
+    <p><b>AmericalAirlines: </b>对A起手牌</p>
+    <p><b>Bubble: </b>比赛进行到后期，剩余选手进入保有奖金的阶段前，最后一个被淘汰的选手。辛辛苦苦啥都没得到，白吹大泡泡</p>
+    <p><b>BackDoor: </b>通过使用最后发的两张牌才能做成大牌的一手牌</p>
+    <p><b>Bankroll: </b>玩家用于资助游戏的金钱</p>
+    <p><b>Bad beat: </b>爆冷，一手好牌被别人在关键时刻以一张运气牌打败</p>
+    <p><b>Bet: </b>下注，投入筹码</p>
+    <p><b>Bicycle: </b>A2345, 最小的一条龙</p>
+    <p><b>Blank: </b>一张看起来对任何玩家都没什么好处的牌</p>
+    <p><b>Suit: </b>花色</p>
+    <p><b>Bluff: </b>吓唬，下注或者加注的目的是希望让对手产生误判而弃牌</p>
+    <p><b>Boardcards: </b>摆在台面的公用牌</p>
+    <p><b>Broadway: </b>10 到 A 的一条龙</p>
+    <p><b>Buy-in: </b>入池费</p>
+    <p><b>Call: </b>跟注，投入和前面玩家相同数额的筹码</p>
+    <p><b>Callingstation: 总是跟注的玩家</b></p>
+    <p><b>Check: </b>如果你之前没有人下注，可以选择不下注静观其变</p>
+    <p><b>Check-Raise: </b>先check不下注，目的是之后可以加注对手们的下注。有好牌时，可以吸引更多筹码到台上</p>
+    <p><b>Cowboys: </b>对K起手</p>
+    <p><b>Draw: </b>Drawing时，表示你在等待还未亮的牌对你有帮助</p>
+    <p><b>DrawingHand: </b>目前赢不了，需要在后轮下注予以改进的一手牌</p>
+    <p><b>Fifthstreet: </b>最后一张共用牌，同river</p>
+    <p><b>Fish: </b>笨蛋玩家</p>
+    <p><b>FixedLimit: </b>下注数额固定</p>
+    <p><b>Flop: </b>头三张公用牌</p>
+    <p><b>Fold: </b>弃牌</p>
+    <p><b>Freecard: </b>无须跟注即可看到下一张牌</p>
+    <p><b>Heads up: </b>单挑，两个玩家争夺底池</p>
+    <p><b>HoleCards: </b>发给玩家的两张牌，不能给别人看</p>
+    <p><b>Kicker: </b>成牌比大小时，需要比单牌时，这个单牌叫做kicker</p>
+    <p><b>LimpIn: </b>牌力不强，无人加注时混进去看看flop</p>
+    <p><b>Muck: </b>盖牌，不想让别人看到自己的底牌</p>
+    <p><b>NoLimit: </b>没有上限的下注</p>
+    <p><b>Nuts: </b>可能凑成的最好的牌</p>
+    <p><b>Offsuit: </b>杂牌</p>
+    <p><b>Pot-limit: </b>允许加注的最大扑克赌注为底池的大小</p>
+    <p><b>PotOdds: </b>底池中的金额与您跟注所需金额的比率</p>
+    <p><b>Rags </b>无用的牌</p>
+    <p><b>Rainbow: </b>亮出的公用牌由各种花色组成</p>
+    <p><b>Raise: </b>加注</p>
+    <p><b>Rebuy: </b>再次购买赌注</p>
+    <p><b>Rake: </b>赌场抽成</p>
+    <p><b>River: </b>河牌，第五张公用牌</p>
+    <p><b>Rock: </b>总是弃牌的玩家</p>
+    <p><b>Semi-bluff: </b>吓唬但是自己也有点东西</p>
+    <p><b>Shark: </b>赢钱的高手</p>
+    <p><b>Showdown: </b>所有玩家翻开底牌以决定谁有最好的牌型</p>
+    <p><b>Slowplay: </b>手中有很强的牌，故意示弱，诱使别人投入更多筹码</p>
+    <p><b>Tilt: </b>情绪失控，乱玩</p>
+    <p><b>Trap: </b>稳赢的情况下示弱，诱导加注</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </body>
+  <footer>
+    <a href="https://tsj1996.github.io/TSJ_Website/HTML_Files/Life/Cold_Knowledge.html">Return</a>
+  </footer>
+</html>
