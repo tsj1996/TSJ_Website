@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\HTML_Files",
-    "\\HTML_Files\\Academics",
     "\\HTML_Files\\Academics\\Aerospace_Engineering",
     "\\HTML_Files\\Academics\\Aerospace_Engineering\\Fluid_Mechanics",
+    "\\HTML_Files\\Academics\\Computer_Science",
     "\\HTML_Files\\Life",
     "\\HTML_Files\\Life\\Cold_Knowledge",
     "\\HTML_Files\\Life\\Lyrics",
     "\\HTML_Files\\Life\\Menu",
     "\\HTML_Files\\Life\\Menu\\Beef"
   ],
-  "SelectedNode": "\\HTML_Files\\Academics\\Aerospace_Engineering\\Fluid_Mechanics\\Compressible_Flow.html",
+  "SelectedNode": "\\HTML_Files\\Life\\Lyrics\\Vivian_Chow_1.html",
   "PreviewInSolutionExplorer": false
 }
