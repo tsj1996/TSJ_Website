@@ -4,12 +4,14 @@
     "\\HTML_Files",
     "\\HTML_Files\\Academics",
     "\\HTML_Files\\Academics\\Aerospace_Engineering",
-    "\\HTML_Files\\Academics\\Aerospace_Engineering\\Aircraft_Design",
     "\\HTML_Files\\Academics\\Aerospace_Engineering\\Propulsion_System",
     "\\HTML_Files\\Life",
     "\\HTML_Files\\Life\\Menu",
     "\\HTML_Files\\Life\\Menu\\Beef",
+    "\\HTML_Files\\Life\\Menu\\Fish_Seafood",
+    "\\HTML_Files\\Life\\Menu\\Rice_Noodle",
     "\\HTML_Files\\Softwares"
   ],
+  "SelectedNode": "\\HTML_Files\\Life\\Menu\\Beef\\SandTea_Beef.html",
   "PreviewInSolutionExplorer": false
 }
